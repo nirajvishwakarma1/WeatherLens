@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{tabtitle}}</title>
+    <link rel="icon" href="/img/sun-logo.svg" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header" class="pt-3">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="logo">
+                            <a href="/"><img src="/img/sun-logo.svg" alt="Weather"></a>
+                            <h2 class="display-6 m-0 sitename"><a href="/">Weather<strong>Lens</strong></a></h2>
+                        </div>
+                    </div>
+                    <div class="col-6 nav-wrap">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/about">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/weather">Weather</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/help">Help</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/contact">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12">
+                        <h4>{{title}}</h4>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <section class="main-content pb-5">

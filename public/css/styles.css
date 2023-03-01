@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img {width: 100px;}
+h1 {color: grey}
+img {width: 200px}
+.nav-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sitename a {text-decoration: none; color: #333;}
+.main-content {flex-grow: 1;}
+footer.socket img {width: 30px;}
+.socket-small {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
